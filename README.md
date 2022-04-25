@@ -80,7 +80,7 @@ use Phpunit for testing the entire application
 Based on new experiences I decided to do the challenge with Eloquent and proceeded to do the following steps:
 
 - SOLID principles were used in its programming architecture.
-- [Download and clean shares] (https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx).
+- [Download and clean shares](https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx).
 - Create the corresponding migrations, models and seeders.
 - Unit Test tests were carried out to verify the correct functioning of the API
 
