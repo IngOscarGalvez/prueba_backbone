@@ -4,6 +4,7 @@ namespace App\Http\Repositories\ZipCode;
 
 use App\Models\ZipCode;
 use Illuminate\Http\JsonResponse;
+use App\Http\Resources\ZipcodeResource;
 
 class ZipCodeRepository {
 
@@ -22,7 +23,7 @@ class ZipCodeRepository {
                 'message'   => "Código postal no encontrado!"
             ),404);
         }
-        return response()->json($zipCode);
+        return response()->json(new ZipcodeResource($zipCode));
     }
 
 }
